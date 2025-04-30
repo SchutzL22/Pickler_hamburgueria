@@ -1,1 +1,2 @@
-# pickler_hamb3
+# pickler_hamburgueria
+Um projeto de site de uma hamburgueria 
