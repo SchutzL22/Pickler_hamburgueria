@@ -1,6 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(38, 189, 38));
+    font-family: Georgia, monospace;
+    background-color: #FFF8DC;
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,15 +12,70 @@ body {
 }
 
 .barra_superior {
-    background-color: blue;
+    font-family: Georgia, monospace;
+    color: #FFA500;
+    background-color: #228B22;
     justify-content: center;
+    text-decoration-color: #FFF8DC;
     position: fixed;
+    display: flex;
+    flex-direction: row;
     top: 0;
     left: 0;
     right: 0;
     height: 100px;
+    padding-left: 2%;
+}
+
+.barra_superior2 {
+    font-family: Georgia, monospace;
+    color: #FFA500;
+    background-color: #228B22;
+    justify-content: left;
+    text-decoration-color: #FFF8DC;
+    position: left;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 0%;
 }
 
 .hamburgueres {
-    background-color: blueviolet;
+    font-family: Georgia, monospace;
+    position: relative;
+    background-color: #ED5E03;
+    color: #FFA500;
+    font-family: Georgia, monospace;
+    white-space: 2000px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    text-align: center;
+    background-color: #FFF8DC;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+button {
+    padding: 1px 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: #ED5E03;
+    color: #FFA500;
+}
+
+button:hover {
+    background-color: #228B22;
 }
